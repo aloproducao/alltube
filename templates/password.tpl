@@ -2,8 +2,8 @@
 <div class="wrapper">
     <main class="main">
         {include file="inc/logo.tpl"}
-        <h2>{t}This video is protected{/t}</h2>
-        <p>{t}You need a password in order to download this video.{/t}</p>
+        <h2>{t}Este vídeo está protegido{/t}</h2>
+        <p>{t}Você precisa de uma senha para baixar este vídeo.{/t}</p>
         <form action="" method="POST">
             <label class="sr-only" for="password">{t}Video password{/t}</label>
             <input class="URLinput" type="password" name="password" id="password"/>
