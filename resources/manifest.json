@@ -1,6 +1,6 @@
 {
-  "short_name": "AllTube",
-  "name": "AllTube Download",
+  "short_name": "Download Studio",
+  "name": "Download Studio",
   "description": "Easily download videos from Youtube, Dailymotion, Vimeo and other websites",
   "display": "standalone",
   "icons": [
