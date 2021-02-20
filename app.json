@@ -8,7 +8,11 @@
     "download",
     "video",
     "youtube",
-    "php"
+    "php",
+    "youtubedownload",
+    "baixar do youtube",
+    "navve", "navve.studio",
+    "navve.tv"
   ],
   "buildpacks": [
     {
