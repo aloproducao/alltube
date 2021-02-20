@@ -1,7 +1,7 @@
 {
-  "name": "AllTube Download",
+  "name": "navve.download",
   "description": "HTML GUI for youtube-dl",
-  "repository": "https://github.com/Rudloff/alltube.git",
+  "repository": "https://github.com/aloproducao/alltube",
   "logo": "https://alltubedownload.net/img/logo.png",
   "keywords": [
     "alltube",
@@ -29,5 +29,5 @@
       "required": false
     }
   },
-  "website": "https://alltubedownload.net/"
+  "website": "http://download.navve.studio/"
 }
