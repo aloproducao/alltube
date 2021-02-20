@@ -9,7 +9,7 @@
             {$video->title}</a>
     </i>"}
             <p>
-                {t params=['@title'=>$title]}Videos extracted from @title:{/t}
+                {t params=['@title'=>$title]}Baixe sua playlist abaixo @title:{/t}
             </p>
         {/if}
 
