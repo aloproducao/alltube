@@ -11,7 +11,7 @@
         <span class="URLinput_wrapper">
             <!-- We used to have an autofocus attribute on this field but it triggerd a very specific CSS bug: https://github.com/Rudloff/alltube/issues/117 -->
             <input class="URLinput large-font" type="url" name="url" id="url"
-                   required placeholder="http://example.com/video"/>
+                   required placeholder="http://examplo.navve.studio/video"/>
         </span>
             {if $config->uglyUrls}
                 <input type="hidden" name="page" value="info"/>
@@ -22,7 +22,7 @@
                     <div class="mp3-inner">
                         <input type="checkbox" id="audio" class="audio" name="audio" {($config->defaultAudio) ? 'checked' : ''}>
                         <label for="audio"><span class="ui"></span>
-                            {t}Audio only (MP3){/t}
+                            {t}Somente áudio (MP3){/t}
                         </label>
                        {if $config->convertSeek}
                         <div class="seekOptions">
@@ -38,9 +38,9 @@
             {/if}
         </div>
     </form>
-    <a class="combatiblelink small-font" href="{path_for name="extractors"}">{t}See all supported websites{/t}</a>
+    <a class="combatiblelink small-font" href="{path_for name="extractors"}">{t}Veja todos os sites suportados{/t}</a>
     <div id="bookmarklet" class="bookmarklet_wrapper">
-        <p> {t}Drag this to your bookmarks bar:{/t} </p>
+        <p> {t}arraste para a barra de favoritos:{/t} </p>
         <a class="bookmarklet small-font"
            href="javascript:window.location='{$domain}{path_for name='info' queryParams=['url' => '%url%']}'.replace('%url%', encodeURIComponent(location.href));">{t}Bookmarklet{/t}</a>
     </div>
