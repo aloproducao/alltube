@@ -8,7 +8,7 @@
         href='{$video->webpage_url}'>
         {$video->title}</a></i>"}
             <p id="download_intro">
-                {t params=['@title' => $title]}You are going to download @title.{/t}
+                {t params=['@title' => $title]}Pronto para download =) @title.{/t}
             </p>
             {if isset($video->thumbnail)}
                 <img itemprop="thumbnailUrl" class="thumb" src="{$video->thumbnail}" alt=""/>
