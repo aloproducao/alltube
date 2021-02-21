@@ -1,3 +1,4 @@
 ---
 convert: true
 ffmpegVerbosity: fatal
+stream: false
