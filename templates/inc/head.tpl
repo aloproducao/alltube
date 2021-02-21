@@ -28,14 +28,14 @@
 <meta property="og:url" content="https://download.navve.studio/">
 <meta property="og:title" content="n.download">
 <meta property="og:description" content="Baixe gratuitamente do youtube, facebook e muitos outros.. totalmente em português sem limites!!">
-<meta property="og:image" content="https://download.navve.studio/img/logo.png">
+<meta property="og:image" content="https://download.navve.studio/img/capa.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://download.navve.studio/">
 <meta property="twitter:title" content="n.download">
 <meta property="twitter:description" content="Baixe gratuitamente do youtube, facebook e muitos outros.. totalmente em português sem limites!!">
-<meta property="twitter:image" content="https://download.navve.studio/img/logo.png">
+<meta property="twitter:image" content="https://download.navve.studio/img/capa.png">
     
    
 
