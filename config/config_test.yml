@@ -1,4 +1,4 @@
 ---
 convert: true
 ffmpegVerbosity: fatal
-stream: false
+stream: true
