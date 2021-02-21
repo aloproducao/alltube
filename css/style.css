@@ -1,17 +1,10 @@
-@font-face {
-	font-family: graphit-regular;
-	src: url("./Tipografia/Graphit-Regular.otf");
-}
 
 
 
 body {
     background-color: "white";
-    font-family: "graphit-regular !important";
-   
-}
 
-* { font-family: graphit-regular;
+   
 }
 
 .page {
