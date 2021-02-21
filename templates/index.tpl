@@ -1,5 +1,15 @@
 {include file='inc/head.tpl'}
 {include file='inc/header.tpl'}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F6G7ZHRSBF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F6G7ZHRSBF');
+</script>
+
 <main class="main">
     <div><img class="logo" src="{base_url}/img/logo.png"
               alt="{$config->appName}" width="328" height="284"></div>
