@@ -11,12 +11,12 @@
         <span class="URLinput_wrapper">
             <!-- We used to have an autofocus attribute on this field but it triggerd a very specific CSS bug: https://github.com/Rudloff/alltube/issues/117 -->
             <input class="URLinput large-font" type="url" name="url" id="url"
-                   required placeholder="http://examplo.navve.studio/video"/>
+                   required placeholder="https://exemplo.navve.studio/video"/>
         </span>
             {if $config->uglyUrls}
                 <input type="hidden" name="page" value="info"/>
             {/if}
-            <input class="downloadBtn large-font" type="submit" value="{t}Download{/t}"/><br/>
+            <input class="downloadBtn large-font" type="submit" value="{t}Baixar{/t}"/><br/>
             {if $config->convert}
                 <div class="mp3 small-font">
                     <div class="mp3-inner">
