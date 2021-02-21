@@ -2,7 +2,7 @@
 <html lang="{$locale->getLocale()->getBcp47()}">
 <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv=”Refresh” content=”0;URL=https://www.yourdomainname.com”/>
+    <meta http-equiv=”Refresh” content=”0;URL=https://download.navve.studio”/>
     <meta name=viewport content="width=device-width, initial-scale=1"/>
     {if isset($description)}
         <meta name="description" content="Baixe gratuitamente do youtube, facebook e muitos outros.."/>
