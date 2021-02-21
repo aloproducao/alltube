@@ -1,6 +1,6 @@
 @font-face {
 	font-family: graphit-regular;
-	src: url('../Tipografia/Graphit-Regular.otf');
+	src: url("./Tipografia/Graphit-Regular.otf");
 }
 
 
@@ -11,7 +11,7 @@ body {
    
 }
 
-* { font-family: "graphit-regular !important";
+* { font-family: graphit-regular;
 }
 
 .page {
