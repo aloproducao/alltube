@@ -19,18 +19,11 @@
     <meta name="twitter:title" content="{$config->appName}{if isset($title)} - {$title|escape}{/if}"/>
     <meta name="twitter:image" content="{base_url}/img/logo.png"/>
     <meta name="twitter:creator" content="@Tael67"/>
-    <meta name="theme-color" content="#4F4F4F"/>
+    <meta name="theme-color" content="#fff"/>
     <link rel="manifest" href="{base_url}/resources/manifest.json"/>
     <meta name="generator" content="AllTube Download ({$config->getAppVersion()})"/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F6G7ZHRSBF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   
 
-  gtag('config', 'G-F6G7ZHRSBF');
-</script>
 </head>
 
 <body>
