@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name=viewport content="width=device-width, initial-scale=1"/>
     {if isset($description)}
-        <meta name="description" content="{$description|escape}"/>
+        <meta name="description" content="Baixe gratuitamente do youtube, facebook e muitos outros.."/>
         <meta name="twitter:description" content="{$description|escape}"/>
         <meta property="og:description" content="{$description|escape}"/>
     {/if}
