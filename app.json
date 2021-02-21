@@ -29,7 +29,7 @@
     },
     "STREAM": {
       "description": "Enable stream mode",
-      "value": "false",
+      "value": "true",
       "required": false
     }
   },
