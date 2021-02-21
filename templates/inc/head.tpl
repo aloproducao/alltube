@@ -22,9 +22,7 @@
     <meta name="theme-color" content="#4F4F4F"/>
     <link rel="manifest" href="{base_url}/resources/manifest.json"/>
     <meta name="generator" content="AllTube Download ({$config->getAppVersion()})"/>
-    
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6G7ZHRSBF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -33,5 +31,7 @@
 
   gtag('config', 'G-F6G7ZHRSBF');
 </script>
+</head>
+
 <body>
 <div class="page {$class}">
