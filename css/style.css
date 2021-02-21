@@ -1,5 +1,12 @@
+@font-face {
+	font-family: graphit-regular;
+	src: url('../Tipografia/Graphit-Regular.otf');
+}
+
+
+
 body {
-    background-color: #fffff;
+    background-color: #fff;
     background-image: url("../img/fond.jpg");
 }
 
