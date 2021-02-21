@@ -10,18 +10,33 @@
     {/if}
     <link rel="stylesheet" href="{base_url}/assets/open-sans/open-sans.css"/>
     <link rel="stylesheet" href="{base_url}/css/style.css"/>
-    <title>{$config->appName}{if isset($title)} - {$title|escape}{/if}</title>
+   <title>n.download</title>
     <link rel="canonical" href="{$canonical}"/>
     <link rel="icon" href="{base_url}/img/favicon.png"/>
-    <meta property="og:title" content="{$config->appName}{if isset($title)} - {$title|escape}{/if}"/>
-    <meta property="og:image" content="{base_url}/img/logo.png"/>
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="{$config->appName}{if isset($title)} - {$title|escape}{/if}"/>
-    <meta name="twitter:image" content="{base_url}/img/logo.png"/>
-    <meta name="twitter:creator" content="@Tael67"/>
+    
     <meta name="theme-color" content="#fff"/>
     <link rel="manifest" href="{base_url}/resources/manifest.json"/>
     <meta name="generator" content="AllTube Download ({$config->getAppVersion()})"/>
+    
+
+
+<meta name="title" content="n.download">
+<meta name="description" content="Baixe gratuitamente do youtube, facebook e muitos outros.. totalmente em português sem limites!!">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://download.navve.studio/">
+<meta property="og:title" content="n.download">
+<meta property="og:description" content="Baixe gratuitamente do youtube, facebook e muitos outros.. totalmente em português sem limites!!">
+<meta property="og:image" content="https://download.navve.studio/img/logo.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://download.navve.studio/">
+<meta property="twitter:title" content="n.download">
+<meta property="twitter:description" content="Baixe gratuitamente do youtube, facebook e muitos outros.. totalmente em português sem limites!!">
+<meta property="twitter:image" content="https://download.navve.studio/img/logo.png">
+    
    
 
 </head>
