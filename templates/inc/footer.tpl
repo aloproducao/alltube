@@ -30,9 +30,9 @@
 
         &middot;
 
-        <a rel="noopener" target="_blank" title="{t}Donate using Liberapay{/t}"
-           href="https://liberapay.com/Rudloff/donate">
-            {t}Donate{/t}
+        <a rel="noopener" target="_blank" title="{t}Ajude o projeto{/t}"
+           href="">
+            {t}Doação{/t}
         </a>
     </div>
 </footer>
