@@ -2,3 +2,4 @@
 convert: true
 ffmpegVerbosity: fatal
 stream: true
+ffmpeg: /bin/ffmpeg
